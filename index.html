@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="grid place-items-center bg-veryDarkBlue lg:min-h-screen">
+    <main class="grid place-content-center max-w-[90%]">
+      <div
+        class="grid bg-darkDesaturatedBlue rounded-2xl mt-16 mb-16 lg:grid-cols-2 lg:m-0 lg:max-w-[1130px]"
+      >
+        <div class="relative lg:col-start-2">
+          <div
+            class="absolute inset-0 bg-softViolet/50 rounded-t-2xl lg:rounded-none lg:rounded-tr-2xl lg:rounded-br-2xl"
+          ></div>
+          <picture>
+            <source
+              media="(min-width : 1024px)"
+              srcset="images/image-header-desktop.jpg"
+            />
+            <img
+              src="images/image-header-mobile.jpg"
+              alt=""
+              class="w-full h-full lg:rounded-r-2xl lg:rounded-br-2xl"
+            />
+          </picture>
+        </div>
+        <div
+          class="grid p-8 gap-y-4 lg:col-start-1 lg:row-start-1 lg:gap-y-8 lg:p-16"
+        >
+          <h2 class="text-white text-3xl text-center lg:text-left lg:text-4xl">
+            Get <span class="text-softViolet">insights </span>that help your
+            business grow.
+          </h2>
+          <p class="text-slightWhiteHeading text-center lg:text-left">
+            Discover the benefits of data analytics and make better decisione
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div
+            class="flex justify-self-center flex-col gap-8 lg:flex-row lg:mt-12 lg:justify-normal lg:w-full lg:gap-12"
+          >
+            <div>
+              <span class="text-white block text-2xl text-center lg:text-left"
+                >10k+</span
+              >
+              <p class="text-slightWhiteHeading">COMPANIES</p>
+            </div>
+            <div>
+              <span class="text-white block text-2xl text-center lg:text-left"
+                >314</span
+              >
+              <p class="text-slightWhiteHeading">TEMPLATES</p>
+            </div>
+            <div>
+              <span class="text-white block text-2xl text-center lg:text-left"
+                >12M+</span
+              >
+              <p class="text-slightWhiteHeading text-center">QUERIES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
